@@ -1,0 +1,25 @@
+{
+  "name": "tfjs-iris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xprilion/tfjs-iris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xprilion/tfjs-iris/issues"
+  },
+  "homepage": "https://github.com/xprilion/tfjs-iris#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.15.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

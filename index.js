@@ -4,6 +4,8 @@ var app = express();
 const tf = require('@tensorflow/tfjs');
 const iris = require('./iris.json');
 
+tf.disableDeprecationWarnings();
+
 const trainingData = tf.tensor2d(iris.map(item=> [
     item.sepal_length, item.sepal_width, item.petal_length, item.petal_width
 ]
